@@ -1,38 +1,37 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+/*  your css code here. If applicable */
+.container{
+	background-color: grey;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 500px;
+	height: 150px;
+	display: flex;
+	text-align: center;
 }
-
-.container {
-    display: flex;
-    align-items: center;
-	border: 5px solid #333;
-    border-radius: 50px;
-    text-align: center;
-	background-color: #f0f0f0;
-	padding: 40px;
+.yellow{
+	margin: 30px;
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	background-color: yellow;
+	border: none;
+	border-radius: 50%;
 }
-
-.red, .green, .yellow {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin: 10px;
+.red{
+	margin: 30px;
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	background-color: red;
+	border: none;
+	border-radius: 50%;
 }
-
-.red {
-    background-color: #ff0000; /* Red */
-}
-
-.green {
-    background-color: #00ff00; /* Green */
-}
-
-.yellow {
-    background-color: #ffff00; /* Yellow */
+.green{
+	margin: 30px;
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	background-color: green;
+	border: none;
+	border-radius: 50%;
 }
